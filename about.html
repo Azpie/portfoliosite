@@ -8,27 +8,89 @@
 
 <body>
   <header>
-    <nav><a href="index.html">Homepage</a>
-        <a href="about.html">About Me</a>
+    <nav>
+      <ul>
+        <li><a href="index.html">Homepage</a></li>
+        <li><a href="about.html">About Me</a></li>
+    </ul>
     </nav>
+    <h1 class="name">K.Howes<br>
+      <p class="status">Full Stack Engineer Trainee</p></h1>
   </header>
 
   <main>
+    <div id="about">
     <h1>About Me</h1>
-    <p>Info about me</p>
+    <p>I've always had an interest in tech and computers, I was raised 
+      by a computer-savvy father, he was always building or repairing 
+      computers and tried to share his love for it with me, however being
+       from the generation when the internet really took off I was always
+        drawn to software and web development. After having my daughter I
+         enrolled in a free open university course on web design but it just 
+         was not right for me as it focused more on the style of the site than
+          building it. I dabbled in web design off and on over the years, 
+          helping out friends, family and acquaintances with their websites. 
+          It's only now that my daughter is all grown up that I decided to pursue
+           my dream of getting into the world of software development and so 
+           my journey began in the summer of 2022. I am currently working my 
+           way through the codecademy full stack engineer course and it's fascinating to see how different yet similar coding languages are, I'm excited at the prospect of learning the next new (to me) thing!</p>
+    </div>
 
-    <h2>Skills</h2>
-    <p>Info about skills/languages etc</p>
+    <div id="skills">
+    <h2>Coding languages</h2>
+    <p>The languages I have covered so far are HTML, CSS, Javascript and Python</p>
+    <div id="logos">
+    <img src="htmllogo.png" width=100px height=80px alt="html logo">
+    <img src="csslogo.png" width=100px height=80px alt="css logo">
+    <img src="jslogo.png" width=100px height=80px alt="javascript logo">
+    <img src="python3.png" width=100px height=80px alt="python logo">
+    </div>
+    </div>
 
-    <h2>Contact</h2>
-    <p>Contact info</p>
+    
+    <div id="random">
+      
+      <div id="hobbies">
+        <p>Would you like to know a random piece of 
+          information about me?</p>
+          <button id="myBtn">Yes please!</button>
+          <p id="fact"></p>
+          </div>
+
+            <script>
+const getRandEvent = () => {
+  const random = Math.floor(Math.random() * 5); 
+  
+  if (random === 0) {
+    return 'My favourite color is purple';
+  } else if (random === 1) {
+    return 'I like to play video games';
+  } else if (random === 2) {
+    return 'I have 6 pets';
+ } else if (random === 3) {
+    return 'My favourite coding language is CSS';
+} else if (random === 4) {
+    return 'My favorite food is chocolate';
+} else if (random === 5) {
+    return 'I like walking dogs';
+} else { return 'oh snap something went wrong';}
+};
+
+
+const element = document.getElementById("myBtn");
+element.addEventListener("click", showHobby);
+
+function showHobby() {
+document.getElementById("fact").innerHTML = getRandEvent();
+}
+
+            </script>
+
+     </div></div>
   </main>
     
-    <footer><h4>Copyright K.Howes</h4>
-        <nav><a href="index.html">Homepage</a>
-            <a href="about.html">About Me</a>
-        </nav>
-    </footer>
+  <footer>Copyright K.Howes 2022 | azaezl@msn.com
+  </footer>
 
 </body>
 </html>

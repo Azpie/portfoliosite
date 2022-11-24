@@ -1,0 +1,488 @@
+/*universal*/
+html{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:16px;
+    background-color: rgb(228, 226, 226);
+    text-align: center;
+    color:white;
+   }
+
+   a {
+    color:whitesmoke;
+    text-decoration:underline 2px #000;
+    
+   }
+  
+  /*Header*/
+  
+  header{
+    display:flex;
+    width:100%;
+    height:150px;
+    margin-top:10px;
+    border: 2px solid #000;
+    background-color: #583a58;
+    background-image: url('./banner1.gif');
+    background-size: cover;
+    box-shadow: inset 0 0 0 200px rgba(92, 26, 92, 0.8);
+    justify-content: space-between;
+  }
+ 
+  .name{
+    font-size:3rem;
+    color: #fff;   
+    text-shadow: 2px 2px 2px black;
+    margin:2px 8px;
+    
+    
+  }
+
+  .status{
+    font-size:1rem;
+    color: #fff;   
+    text-shadow: 2px 2px 2px black;
+  }
+  nav{
+    margin-top: 100px;
+  }
+
+   nav ul li{
+    display:inline;
+    border: 0.125rem solid rgb(228, 226, 226);
+    border-radius: 1rem;
+    background-color: #583a58;
+    padding: 8px;
+    }
+  
+    nav a{
+      color: #fff;
+      font-weight: bold;
+      padding:15px 15px;
+    }
+
+
+
+/*Index main section*/
+
+.info {
+  display: flex;
+}
+
+#welcome{
+  margin-top:16px;
+  color:#000;
+  width: 100%;
+  padding: 5px 0px;
+}
+
+#welcome h2{
+  font-size: 32px;
+}
+
+#projects{
+  /*border: 0.125rem solid #000;*/
+  margin-top:16px;
+  color:white;
+  width: 100%;
+  height:fit-content;
+  }
+
+#projects h2{
+  background-color: #583a58;
+  border: solid 1px #000;
+  text-decoration: underline white;
+  font-size: 24px;
+  padding: 10px 0px;
+}
+
+#precode{
+  margin: 5px;
+  padding-bottom: 35px;
+  color: #000;
+}
+
+#precode h3{
+  font-size: 20px;
+  margin-top: 50px;
+  text-decoration: underline overline;
+}
+
+#pretable{
+  background-color: #583a58;
+  border: solid 3px black;
+  margin-left:75px;
+  width: 90%;
+}
+
+#pretable thead{
+  font-size: 18px;
+  font-weight: bold;
+  border: solid 2px #000;
+  color: #583a58;
+  background-color: rgb(228, 226, 226);
+  }
+
+#pretable th{
+  border: solid 1px #000;
+}
+
+#pretable tbody{
+  padding: 35px;
+  margin: 35px;
+  color: #fff;
+}
+
+#pretable tbody tr{
+  border: solid 3px #000;
+}
+
+#pretable tbody td{
+  border: solid 1px #000;
+}
+
+#codecad {
+  margin: 25px 5px;
+  padding-bottom: 35px;
+  color: #000;
+}
+
+#codecad h3{
+  text-decoration: underline overline;
+  font-size: 20px;
+}
+
+#innerbox {
+  display:flex;
+  margin:30px;
+  justify-content: space-evenly;
+  color: #fff;
+  
+}
+
+#club{
+  background-color: #583a58;
+  border: solid 1px #000;
+  border-radius: 5px;
+  padding:15px;
+}
+
+#club img{
+  border: solid 2px #000;
+  margin:5px;
+}
+
+#club img:hover{
+  width:400px;
+  height:400px;
+}
+
+#club a:hover{
+  color:#000;
+  background-color: #b584b5;
+  }
+
+#tds{
+  background-color: #583a58;
+  border: solid 1px #000;
+  border-radius: 5px;
+  padding:15px;
+}
+
+#tds a:hover{
+  color:#000;
+  background-color: #b584b5;
+  }
+
+#tds img{
+  border: solid 2px #000;
+  margin:5px;
+}
+
+#tds img:hover{
+  width:400px;
+  height:400px;
+}
+
+#contact{
+  font-weight: bold;
+  margin-top:20px;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+#contact h2 {
+  font-size: 24px;
+  text-decoration: underline;
+  background-color: #583a58;
+  color: #fff;
+  padding: 10px 0px;
+}
+
+/*Footer*/
+footer{
+  background-color: #583a58;
+  border: solid 1px #000;
+  font-weight: bold;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+
+
+/*About me page*/
+
+#about{
+  color: #000;
+  margin-top: 15px;
+  padding: 10px 0px;
+}
+
+#about h1{
+  background-color: #583a58;
+  text-decoration: underline;
+  color: #fff;
+  padding: 8px 10px;
+  font-size:24px;
+}
+
+#skills{
+margin-top: 15px;
+color: #000;
+  
+}
+
+#skills h2{
+  background-color: #583a58;
+  text-decoration: underline;
+  padding: 10px 0px;
+  font-size: 24px;
+  color: #fff;
+}
+
+#logos{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+#logos img{
+  background-color: #583a58;
+  border:solid 2px #000;
+  border-radius: 5px;
+  margin: 5px;
+  padding:5px;
+}
+
+#random{
+  display:flex;
+  justify-content: space-around;
+  margin-top:50px;
+  margin-bottom: 50px;
+  padding:20px
+}
+
+#hobbies{
+  background-color: #583a58;
+  border:solid 1px #000;
+  border-radius: 5px;
+  padding: 5px 15px;
+  color: #fff;
+  margin-top: 5px;
+}
+
+#hobbies p{
+  font-weight: bold;
+}
+
+#myBtn{
+  background-color: #fff;
+  color:#000;
+  border-radius: 5px;
+}
+
+#fact{
+  background-color: #583a58;
+  color:#fff;
+  border:solid 1px #583a58;
+  border-radius: 5px;
+  font-size: 20px;;
+}
+
+/*-----------MEDIA QUERIES*-------------/
+
+
+/*Header media quries for tablets and phones*/
+
+@media only screen and (max-width: 760px){
+  html{
+    font-size: 14px;
+  }
+  
+  .name{
+    font-size: 20px;
+  }
+  
+  nav ul li{
+    padding:5px;
+  }
+}
+
+/*Index main media quries for tablets and phones*/
+
+@media only screen and (max-width: 760px){
+  #welcome{
+    margin-top:12px;
+    font-size: 16px;
+    padding: 3px 0px;
+  }
+  
+  #projects{
+    margin-top:12px;
+    }
+  
+  #projects h2{
+    font-size: 16px;
+    padding: 5px 0px;
+  }
+  
+  #precode{
+    font-size: 14px;
+    margin: 2px;
+    padding-bottom: 25px;
+    }
+  
+  #precode h3{
+    margin-top: 30px;
+   }
+  
+  #pretable{
+    background-color: #583a58;
+    border: solid 3px black;
+    margin-left:35px;
+    width: 90%;
+  }
+  
+  #pretable thead{
+    font-size: 16px;
+     }
+  
+ #pretable tbody{
+    font-size: 14px;
+   }
+  
+  #codecad {
+    font-size: 14px;
+    margin: 15px 5px;
+    padding-bottom: 30px;
+     }
+  
+ 
+  #innerbox {
+    display:flex;
+    margin:20px;  
+  }
+  
+  #club{
+    padding:10px;
+  }
+  
+  #club img{
+    margin:10px;
+    width:150px;
+    height:150px;
+  }
+  
+  #club img:hover{
+    width:300px;
+    height:300px;
+  }
+  
+   #tds{
+    padding:10px;
+  }
+  
+  
+  #tds img{
+     margin:10px;
+     width: 150px;
+     height: 150px;
+  }
+  
+  #tds img:hover{
+    width:300px;
+    height:300px;
+  }
+  
+  #contact{
+    font-size: 14px;
+     }
+  
+  #contact h2 {
+    font-size: 16px;
+    padding: 8px 0px;
+  }
+  }
+
+  /*Footer media quries for tablets and phones*/
+
+@media only screen and (max-width: 760px){
+
+footer{
+  font-size: 14px;
+  padding: 4px;
+  }
+}
+
+ /*About me media quries for tablets and phones*/
+
+ @media only screen and (max-width: 760px){
+  #about{
+    padding: 8px 0px;
+  }
+  
+  #about h1{
+   padding: 5px 0px;
+   font-size: 16px;
+  }
+  
+  #about p{
+    font-size: 14px;
+  }
+  
+ 
+  #skills h2{
+    padding: 8px 0px;
+    font-size: 16px;
+     }
+  
+  #skills p{
+    font-size: 14px;
+  }
+  
+ 
+  #logos img{
+    height:70px;
+    width: 70px;
+  }
+  
+  #random{
+    margin-top:30px;
+    margin-bottom: 30px;
+    padding:15px
+  }
+
+  #hobbies p{
+    font-size:14px;
+  }
+  
+ 
+  #myBtn{
+    font-size: 14px;
+    }
+  
+  #fact{
+    font-size: 16px;;
+  }
+  
+
+  }
